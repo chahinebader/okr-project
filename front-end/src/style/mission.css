@@ -1,0 +1,71 @@
+.title {
+    font-size: 1.5rem;
+    color: rgb(87, 87, 187);
+    align-content: center;
+
+}
+.date-begin {
+    color: rgb(131, 167, 199);
+}
+.date-end {
+    color: rgb(131, 167, 199);
+}
+.objectif-row {
+    display: flex ;
+
+
+}
+.delete-button {
+    margin-left: 50%;
+    margin-top: 2%;
+    display: block;
+}
+.button-associate{
+    margin-left: 2%;
+
+}
+.dates-align {
+    margin-left: 70%;
+}
+.card-mission {
+    width: 85%;
+    margin: auto;
+}
+.delete-section {
+    margin-left: 60%;
+    display: flex;
+}
+.creator-section {
+    margin-left: 50%;
+}
+.create-mission {
+    margin-left: 82%;
+
+}
+.progressvalue-mission {
+ position:inherit;
+font-size: 11px; 
+right:0; 
+color: black;
+}
+.modify-delete {
+    display: flex;
+}
+@media (max-width:700px){
+    .create-mission  {
+        margin-left: 30%;
+    }
+    .card-mission {
+        width: 100%;
+        
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        display: block;
+    }
+    .dates-align {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}

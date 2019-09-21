@@ -1,0 +1,80 @@
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+.description-okr {
+    color: rgb(120, 121, 122);
+}
+.okr-card {
+  height: 30%;
+  margin: auto;
+}
+.dates-label {
+  display: flex;
+}
+.days-remaining {
+  margin-left: 55%;
+
+
+}
+.date-begin-okr {
+  color: rgb(131, 167, 199);
+  margin-left: 50%;
+}
+.date-end-okr {
+  color: rgb(131, 167, 199);
+  margin-left: 52%;
+}
+.page-title-mission {
+  text-align: center !important;
+  font-size: 1.5rem !important;
+  font-style: italic !important;
+}
+.comment-creator {
+  margin-left : 10%;
+  color: rgb(0, 0, 0);
+}
+.comment-content {
+  margin-left : -3%;
+  border-radius: 15px;
+  background-color: #e7e7e7;
+}
+.commentor-name {
+  color: rgb(56, 118, 160);
+  margin-left: 3%;
+}
+.comment-description {
+  margin-left: 3%;
+}
+.image-comment {
+  border-radius: 50%;
+  width: 7%;
+}
+.delete-comment {
+  display: -webkit-inline-flex;
+  margin-left: 35%;
+}
+.visibility-okr {
+  margin-left: 35%;
+}

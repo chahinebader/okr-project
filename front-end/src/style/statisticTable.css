@@ -1,0 +1,25 @@
+.scrollbarTable
+{
+	margin-left: 0px;
+
+	height:250px;
+	width:100%;
+	
+	overflow-y: scroll;
+   
+    background-color: #fff;
+}
+.tablecontainer{
+    width: 100%;
+    margin-top: 50px
+}
+.selectList{
+width: 40%;
+}
+.progress-cercle-objectif{
+    margin-left: 90%;
+    position: absolute;
+    width: 70px;
+    height: 70px;;
+    
+}

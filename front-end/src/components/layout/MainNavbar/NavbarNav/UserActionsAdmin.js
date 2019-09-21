@@ -1,0 +1,90 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  Collapse,
+  NavItem,
+  NavLink
+} from "shards-react";
+
+import AuthContext from '../../../../context/auth-context';
+
+
+const logout=()=>{
+ 
+  localStorage.removeItem('tokenAuth');
+  localStorage.removeItem('userId');
+  localStorage.removeItem('name');
+  localStorage.removeItem('avatar');
+  localStorage.removeItem('company');
+  localStorage.setItem('status',' ');
+  window.location.reload();
+  
+  }
+
+export default class UserActions extends React.Component {
+  static contextType =AuthContext;
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible: false,
+    };
+
+    this.toggleUserActions = this.toggleUserActions.bind(this);
+    if(!("userId" in localStorage)){
+      return;
+    }
+  }
+
+  toggleUserActions() {
+    this.setState({
+      visible: !this.state.visible
+    });
+  }
+ 
+  
+
+
+  render() {
+   
+    return (
+     
+      <NavItem tag={Dropdown} caret toggle={this.toggleUserActions}>
+        <DropdownToggle caret tag={NavLink} className="text-nowrapAdmin px-3">
+       
+          <img
+            className="user-avatarAdmin rounded-circle mr-2"
+            src={require("../../../../images/avatars/"+localStorage.getItem('avatar'))}
+            alt="User Avatar"
+          />
+        
+          {" "}
+          <span className="d-noneAdmin d-md-inline-block">{localStorage.getItem('name')}</span>
+        </DropdownToggle>
+        <Collapse tag={DropdownMenu} right small open={this.state.visible}>
+          <DropdownItem tag={Link} to="/profils">
+            <i className="material-icons">&#xE7FD;</i> Profile
+          </DropdownItem>
+          <DropdownItem tag={Link} to="/profils">
+            <i className="material-icons">&#xE8B8;</i> Edit Profile
+          </DropdownItem>
+          <DropdownItem tag={Link} to="/overview">
+            <i className="material-icons">&#xE2C7;</i> Company
+          </DropdownItem>
+       
+          <DropdownItem divider />
+       
+          <DropdownItem tag={Link} onClick={()=> logout()} to="/auth" className="text-danger">
+            <i className="material-icons text-danger">&#xE879;</i> Logout          
+          </DropdownItem>
+         
+         
+        </Collapse>
+      </NavItem>
+      
+    );
+  }
+}

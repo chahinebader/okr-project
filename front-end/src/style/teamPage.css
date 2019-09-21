@@ -1,0 +1,10 @@
+.buttonGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+Button {
+    margin:2px; 
+}
+.superviseur{
+    color:red;
+}

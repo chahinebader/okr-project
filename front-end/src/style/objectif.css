@@ -1,0 +1,50 @@
+
+.title {
+    font-size: 1.5rem;
+    color: rgb(87, 87, 187);
+    align-content: center;
+
+}
+.date-begin {
+    margin-left: 5%;
+
+
+}
+.date-end {
+    margin-left: 7%;
+
+
+}
+.description {
+    color: rgb(120, 121, 122)
+}
+.delete-button {
+    margin-left: 50%;
+    margin-top: 2%;
+    display: block;
+}
+.corner-buttons {
+    margin-left: 20%;
+    display: flex;
+}
+.associate-team-button {
+    display: flex;
+
+}
+.objectif-card {
+    width: 85%;
+    margin: auto;
+
+}
+.keyresult-associated{
+    margin-left: 2%;
+}
+.visibility {
+    margin-left: 60%;
+}
+.creator-section-objectif {
+    margin-left: 46%;
+}
+.visibility-objectif {
+    margin-left:40%;
+}

@@ -1,0 +1,247 @@
+.App {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .App-logo {
+    height: 48px;
+  }
+  
+  .App-header {
+   display: none;
+    
+  }
+  
+  .App-intro {
+    margin: 0px auto;
+    width: 1000px;
+    padding: 0px;
+  }
+  
+  .demoBtn {
+    background: none;
+    border: 3px solid white;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #222;
+    transition: 0.25s all;
+  }
+  
+  .demoBtn:disabled {
+    opacity: 0.5;
+  }
+  
+  .demoBtn:hover {
+    border: 3px solid #222;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: white;
+    background: #222;
+  }
+  
+  code {
+    color: #F44336;
+    background: #EEEEEE;
+    padding: 2px 4px;
+    font-weight: 700;
+  }
+  .spicy-datatable {
+    width: 100%;
+    overflow: scroll;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 0.875rem;
+    text-align: left;
+    border-spacing: 0;
+  }
+  
+  .spicy-datatable > tbody > tr > td,
+  .spicy-datatable > tfoot > tr > td,
+  .spicy-datatable > thead > tr > th {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    border-top: 1px solid #ddd;
+    word-break: break-all;
+    vertical-align: middle;
+  }
+  
+  .spicy-datatable > tbody > tr {
+    transition: 0.25s all;
+  }
+  
+  .spicy-datatable > tbody > tr:hover {
+    background: whitesmoke;
+  }
+  
+  .spicy-datatable > thead > tr > th {
+    border-top: 0;
+  }
+  
+  .spicy-datatable > tbody > .spicy-datatable--selected-row {
+    background: #7a7ca0;
+  }
+  
+  /*
+    === ENTRY COUNTER AT BOTTOM ===
+  */
+  
+  .spicy-datatable-counter {
+    text-align: left;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+  
+  /*
+    === PAGINATION SETTINGS ===
+  */
+  
+  .spicy-datatable-pagination-root {
+    width: 100%;
+    position: relative;
+    margin: 1rem auto;
+    overflow: auto;
+  }
+  
+  .spicy-datatable-pagination-list {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .spicy-datatable-pagination-list .spicy-datatable-pagination-button {
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 100%;
+    transition: 0.25s all;
+  }
+  
+  .spicy-datatable-pagination-list .spicy-datatable-pagination-button-elipsis:hover {
+    background: #fff !important;
+  }
+  
+  .spicy-datatable-pagination-list .spicy-datatable-pagination-button.active {
+    background: #7a6cb0;
+    color: #fff;
+  }
+  
+  .spicy-datatable-pagination-list .spicy-datatable-pagination-button:hover {
+    background: #7a7ca0;
+    color: #fff;
+  }
+  
+  .spicy-datatable-pagination-list .spicy-datatable-pagination-button-elipsis:hover {
+    background: #fff !important;
+    color: #ccc;
+    cursor: default;
+  }
+  
+  /*
+    === TOP OPTIONS ===
+  */
+  
+  .spicy-datatableoptions-search {
+    text-align: right;
+    float: right;
+  }
+  
+  .spicy-datatableoptions-sizepicker {
+    display: none;
+  }
+  
+  .spicy-datatableoptions-sizepicker--selectfield {
+    margin: 0 5px;
+  }
+  
+  .spicy-datatableoptions-search--input {
+    margin-left: 10px;
+  }
+  
+  .spicy-datatableoptions-search--input,
+  .spicy-datatableoptions-search--label {
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 5px 5px;
+
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 10px;
+    
+    color: #575756;
+    
+  }
+  
+  .spicy-datatableoptions-export--button-wrapper {
+    float: left;
+    clear: both;
+    border: 0px;
+   
+  }
+  
+  .spicy-datatableoptions-export--button {
+    background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:8px 10px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  
+  }
+  .spicy-datatableoptions-export--button:hover {
+    background-color: #9FF781; /* Green */
+    color: white;
+  }
+  .avatarImg{
+    border-radius: 1rem;
+  }
+ .addUser{
+  float: left;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 10.3%;
+  padding: 5px 5px;
+  font-size:12.7px;
+	padding:8px 10px;
+ }
+ .editUser{
+   font-size: 10px;
+   width: 5%;
+   border-radius: 1rem;
+   margin-right: 10px;
+ }.deleteUser{
+  font-size: 10px;
+  width: 5%;
+  
+  border-radius: 1rem;
+}
+.icon{
+  position: relative;
+  left: -5px;
+}

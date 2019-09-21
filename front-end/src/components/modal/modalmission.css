@@ -1,0 +1,13 @@
+.description{
+    margin: auto;
+    display: flex;
+    margin-right: 10%;
+    }
+    .description-label {
+        display: flex;
+        margin: auto;
+    }
+    .date-label {
+        margin-top: auto;
+        margin-left: 13%;
+    }

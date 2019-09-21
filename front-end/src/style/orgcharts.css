@@ -1,0 +1,43 @@
+.initechNode {
+    border: solid 1px rgb(118, 124, 126);
+    border-radius: 3px;
+    padding: 5px;
+    width: 180px;
+    display: inline-block;
+    height: 125px;
+    margin-left: 5px;
+
+  
+}
+.nodeGroupCell::after { 
+    margin: auto ;
+  }
+ 
+#initechOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+    border-right: solid 3px rgb(25, 144, 180);
+
+
+}
+ 
+#initechOrgChart .nodeLineBorderTop {
+    border-top: solid 3px rgb(25, 144, 180);
+
+}
+.progress-cercle-objectif {
+    height: 40px;
+    width: 40px;
+}
+.enteteTitle{
+    display: -webkit-flex;  
+    height: 50px;
+
+}
+.enteteImage{
+width: 30px;
+height: 30px;
+border-radius: 1rem;
+margin-left: auto;
+}
+.enteteCreator {
+    margin-left: auto ;
+}
