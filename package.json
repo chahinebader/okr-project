@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "cors-prefetch-middleware": "^1.0.0",
     "express": "^4.16.4",
-    "express-fileupload": "^1.1.2-alpha.1",
+    "express-fileupload": "^1.1.9",
     "express-graphql": "^0.7.1",
     "graphql": "^14.1.1",
     "images-upload-middleware": "^1.1.1",
