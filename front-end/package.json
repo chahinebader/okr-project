@@ -38,7 +38,7 @@
     "icomoon-free-npm": "0.0.0",
     "jquery": "^3.4.0",
     "lodash.find": "^4.6.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-sass": "^4.11.0",
     "popper.js": "^1.15.0",
     "react": "^16.6.3",
