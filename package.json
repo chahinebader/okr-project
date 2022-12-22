@@ -23,7 +23,7 @@
     "graphql": "^14.1.1",
     "images-upload-middleware": "^1.1.1",
     "jade": "^1.11.0",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "jwks-rsa": "^1.4.0",
     "lodash.merge": "^4.6.1",
     "mongoose": "^5.4.12",
